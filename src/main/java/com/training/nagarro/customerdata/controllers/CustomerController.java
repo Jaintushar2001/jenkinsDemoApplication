@@ -6,8 +6,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CustomerController {
 	
-	 @GetMapping("/home")
-	 public String getString() {
+	@GetMapping("/")
+	public String gethome() {
 		return "String for home page is published";
+	}
+	
+	
+	@GetMapping("/first")
+	 public String getString() {
+		return "String for first page is published";
 	}
 }
