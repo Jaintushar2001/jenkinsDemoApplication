@@ -52,18 +52,18 @@
 			</activation>
 			<properties>
 			       <sonar.host.url>http://localhost:9000</sonar.host.url>
-			       <sonar.login>admin</sonar.login>
-                               <sonar.password>tushar</sonar.password>
+<!-- 			       <sonar.login>admin</sonar.login>
+                               <sonar.password>tushar</sonar.password> -->
 			</properties>
 		</profile>
 	</profiles>
-	<servers>
+<!-- 	<servers>
             <server>
                  <id>sonarQube_server</id>
                  <username>admin</username>
                  <password>tushar</password>
             </server>
-        </servers>
+        </servers> -->
 	<repositories>
 		<repository>
 			<id>spring-milestones</id>
